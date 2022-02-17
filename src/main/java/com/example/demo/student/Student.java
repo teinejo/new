@@ -81,4 +81,7 @@ public class Student {
                 ", age=" + age +
                 '}';
     }
+    public void newFucntion() {
+        System.out.println("sss");
+    }
 }
