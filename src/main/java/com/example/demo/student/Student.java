@@ -27,16 +27,6 @@ public class Student {
         this.age = age;
     }
 
-    public Student(String name,
-                   String email,
-                   LocalDate dob,
-                   Integer age) {
-        this.name = name;
-        this.email = email;
-        this.dob = dob;
-        this.age = age;
-    }
-
     @Override
     public String toString() {
         return "Student{" +
@@ -47,7 +37,7 @@ public class Student {
                 ", age=" + age +
                 '}';
     }
-    public void newFucntion() {
+    public void newFunction() {
         System.out.println("sss");
     }
 }
